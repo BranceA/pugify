@@ -1,0 +1,76 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 220vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+nav, main {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    height: 5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: pink;
+    justify-content: space-between;
+}
+
+nav img {
+    height: 50px;
+    justify-content: flex-start;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    font-size: x-large;
+}
+
+.first-nav-buttons {
+    margin-left: 200px;
+    border-right: 2px solid white;
+}
+
+.fa-user-circle {
+    font-size: 40px;
+}
+
+.first-nav-buttons a {
+    padding: 30px;
+}
+
+.profile form {
+    margin-right: 130px;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    height: 40%;
+    background-color: blue;
+}
+
+article {
+    height: 25%;
+    background-color: red;
+}
+
+footer {
+    height: 30%;
+    background-color: purple;
+}
