@@ -68,6 +68,10 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    color: blue;
+}
+
 main {
     height: 40%;
     background-color: blue;
@@ -186,9 +190,11 @@ article a {
 
 section {
     height: 25%;
-    background-color: magenta;
+    background-color: black;
     padding: 0 10%;
     color: gray;
+    font-size: small;
+    display: flex;
 }
 
 .lists {
@@ -226,6 +232,11 @@ section ul {
 section ul a {
     color: white;
     text-decoration: none;
+    font-size: medium;
+}
+
+section ul a:hover {
+    color: #5FBA55;
 }
 
 section ul li {
@@ -247,7 +258,63 @@ section ul li {
     padding-top: 50%;
 }
 
+.social-buttons {
+    color: white;
+    width: 40%;
+    margin: 0;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.social-buttons p {
+    padding-top: 50px;
+    padding-right: 20px;
+}
+
 footer {
     height: 5%;
-    background-color: purple;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer * {
+    margin: 0;
+}
+
+.very-bottom-left {
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+}
+
+footer a {
+    color: gray;
+    text-decoration: none;
+    padding: 20px 10px;
+    font-size: x-small;
+}
+
+footer a:hover {
+    color: #5FBA55;
+}
+
+.flag {
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    font-size: x-small;
+    align-self: flex-start;
+    padding: 10px 50px 0 0;
+}
+
+.flag p {
+    padding: 5px;
 }
